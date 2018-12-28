@@ -1,0 +1,201 @@
+
+html, body {
+    margin: 0;
+    padding:  0;
+    width: 100;
+    height: 100;
+    font-family: Poppins !important;
+
+}
+header{
+    position: absolute;
+    
+    top: 0;
+    left: 0;
+    padding: 0 100px;
+    background: #262626;
+    width: 100%;
+    height: 15%;
+    box-sizing: border-box;
+}
+header .logo
+{
+    color: #fff;
+    height:60px;
+    line-height: 100px;
+    font-size: 35px;
+    float: left;
+    font-weight: bold;
+    
+    
+}
+header nav{
+    float: right;
+
+}
+header nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+header nav ul li{
+    list-style-type: none;
+    
+}
+header nav ul li a{
+
+line-height: 100px;   
+    
+
+}
+header nav ul li a{
+    
+    
+    padding: 10px 20px;
+    
+    color: #fff;
+    text-decoration:none;
+    background: transparent;
+    text-align: center;
+    border-radius: 5px;
+    font-family: sans-serif;
+    border: none;
+
+    
+    
+    
+    
+    
+}
+header nav ul li a:hover{
+    color: #fff;
+    background:blue;
+    transition-duration: .7s;
+}
+header nav ul li a.active{
+    color: #fff;
+    background:green;
+    transition-duration: .7s;
+}
+.menu-toggle{
+    color:#fff;
+    float: right;
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+@media (max-width: 1111px){
+     header
+     {
+         padding: 0 20px;
+         height: 50px;
+
+     }
+     .menu-toggle
+    {
+    display: block;
+    }
+    header .logo{
+      line-height: 30px;
+    }
+    header nav {
+        
+        position: absolute;
+        
+        width: 100%;
+        height: calc(100vh -50px);
+        background: #333;
+        top: 50px;
+        left: -100%;
+        transition:0.5s;
+    }
+    header nav.active{
+        left: 0;
+    }
+    
+    header nav ul{
+        
+        display: block;
+        text-align: center;
+    }
+    header nav ul li a {
+        border-bottom: 1px solid rgba(0,0,0,.2);
+        
+        line-height: 50px;
+    }
+}
+
+
+
+
+.social {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+.social ul li{
+    list-style-type: none;
+    color:red;
+    padding-top: 20px;
+    font-size: 150%;
+
+}
+.overlay{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    
+    top: 0%;
+    
+
+}
+.overlay h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 12px:
+}
+
+
+.side-strip{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -4em;
+    transform: rotate(90deg);
+    color:blue;
+    letter-spacing: 4px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
